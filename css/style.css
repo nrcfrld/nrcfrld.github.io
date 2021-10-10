@@ -1,115 +1,122 @@
 body {
-    background: #0A0E29;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+	background: #0a0e29;
+	color: white;
+	font-family: "Poppins", sans-serif;
 }
 
 .navbar .navbar-nav a {
-    color: white;
-    position: relative;
-    transition: .5s;
+	color: white;
+	position: relative;
+	transition: 0.5s;
 }
 
 .navbar .navbar-nav a::after {
-    content: '';
-    background: #56FB9F;
-    position: absolute;
-    bottom: 5px;
-    width: 0;
-    left: 10px;
-    border-radius: 4px;
-    height: 4px;
-    transition: .5s;
+	content: "";
+	background: #56fb9f;
+	position: absolute;
+	bottom: 5px;
+	width: 0;
+	left: 10px;
+	border-radius: 4px;
+	height: 4px;
+	transition: 0.5s;
 }
 
 .navbar .navbar-nav a:hover::after {
-    width: 40%;
+	width: 40%;
 }
 
 .navbar .img-brand {
-    width: 80px;
+	width: 80px;
 }
 
 .jumbotron {
-    margin-top: 50px;
+	margin-top: 50px;
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 2.75rem;
+	font-weight: bold;
+	font-size: 2.75rem;
 }
 
 .jumbotron h1 span {
-    color: #56FB9F;
-    margin-left: 20%;
+	color: #56fb9f;
+	margin-left: 20%;
 }
 
 .text-primary {
-    color: #56FB9F !important;
+	color: #56fb9f !important;
 }
 
 .btn-primary {
-    background: rgb(38, 218, 119);
-    padding: 12px 20px;
-    color: white;
-    border: none;
+	background: rgb(38, 218, 119);
+	padding: 12px 20px;
+	color: white;
+	border: none;
 }
 
 .btn-primary:hover {
-    background: rgb(24, 170, 89);
-    padding: 12px 20px;
+	background: rgb(24, 170, 89);
+	padding: 12px 20px;
 }
 
 #skills .card {
-    background: transparent;
-    border: 1px solid #56FB9F;
-    padding: 5px 80px;
-    box-sizing: border-box;
-    min-height: 390px;
+	background: transparent;
+	border: 1px solid #56fb9f;
+	padding: 5px 80px;
+	box-sizing: border-box;
+	min-height: 390px;
 }
 
 #skills .card img {
-    width: 85px;
-    height: 85px;
-    margin: 10px auto;
+	width: 85px;
+	height: 85px;
+	margin: 10px auto;
 }
 
 #works h1 span {
-    color: #56FB9F;
-    margin-left: 15%;
+	color: #56fb9f;
+	margin-left: 15%;
+}
+
+#educations h1 span {
+	color: #56fb9f;
+	margin-left: 15%;
 }
 
 #works img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
 }
 
 #achievement img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    position: relative;
-}
-
-#achievement img::after {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 100%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background: red;
+	width: 100%;
+	object-fit: cover;
+	position: relative;
 }
 
 #achievement h1 span {
-    color: #56FB9F;
-    margin-left: 3%;
+	color: #56fb9f;
+	margin-left: 3%;
 }
 
 #contact h1 span {
-    color: #56FB9F;
-    margin-left: 20%;
+	color: #56fb9f;
+	margin-left: 20%;
+}
+
+#contact .card {
+	border: 1px solid #56fb9f;
+	background: transparent;
+}
+
+#contact .list-group-item {
+	border: 1px solid #56fb9f;
+	background: transparent;
+}
+
+.my-card {
+	border: 1px solid #56fb9f;
+	background: transparent;
 }

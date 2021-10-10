@@ -1,160 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Enrico Feraldo</title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+		<!-- My Style -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Enrico Feraldo</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-    <!-- My Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono&display=swap" rel="stylesheet">
-</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.png" class="img-brand" />
+				</a>
+				<button
+					class="navbar-toggler text-white"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ml-auto">
+						<a class="nav-item nav-link active" href="#"
+							>Home <span class="sr-only">(current)</span></a
+						>
+						<a class="nav-item nav-link" href="#">About</a>
+						<a class="nav-item nav-link" href="#">Works</a>
+						<a class="nav-item nav-link" href="#">Achievement</a>
+					</div>
+				</div>
+			</div>
+		</nav>
 
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" class="img-brand">
-            </a>
-            <button class="navbar-toggler text-white" type="button" data-toggle="collapse"
-                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Works</a>
-                    <a class="nav-item nav-link" href="#">Achievement</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+		<!-- End Navbar -->
 
-    <!-- End Navbar -->
+		<div class="jumbotron" style="background: transparent">
+			<div class="container">
+				<h1>
+					Hi, I'm Rico .<br />
+					I'm a Fullstack Web<br />
+					<span>Developer</span>
+				</h1>
+			</div>
+		</div>
 
-    <div class="jumbotron" style="background: transparent;">
-        <div class="container">
-            <h1>Hi, I'm Rico .<br>
-                I'm a Fullstack Web<br>
-                <span>Developer</span></h1>
-        </div>
-    </div>
+		<div class="container">
+			<section id="about" class="my-5">
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							Hello My Name Is Enrico Feraldo Kalengkongang. Lorem ipsum dolor
+							sit, amet consectetur adipisicing elit. Temporibus ullam minima
+							fugiat fuga non illum, optio itaque voluptate alias facilis rem
+							similique labore ad! Natus exercitationem necessitatibus pariatur
+							nihil! Ullam?
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+							nulla non suscipit ullam optio velit repellendus perferendis neque
+							commodi rerum assumenda aspernatur sint, fugit natus doloribus ab
+							eveniet repudiandae debitis.
+						</p>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col text-center">
+						<a href="" class="btn btn-primary">Download My CV</a>
+					</div>
+				</div>
+			</section>
 
-    <div class="container">
-        <section id="about" class="my-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>
-                        Hello My Name Is Enrico Feraldo Kalengkongang.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus ullam minima fugiat fuga
-                        non
-                        illum, optio itaque voluptate alias facilis rem similique labore ad! Natus exercitationem
-                        necessitatibus pariatur nihil! Ullam?
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, nulla non suscipit ullam optio
-                        velit
-                        repellendus perferendis neque commodi rerum assumenda aspernatur sint, fugit natus doloribus ab
-                        eveniet repudiandae debitis.
-                    </p>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col text-center">
-                    <a href="" class="btn btn-primary">Download My CV</a>
-                </div>
-            </div>
-        </section>
+			<section id="skills" class="my-5">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card text-center">
+							<img src="img/icons8-web-design-100.png" />
+							<h3 class="text-primary">Front End</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic,
+								eveniet!
+							</p>
+							<h5 class="text-primary">Dev Tools</h5>
+							<ul class="list-unstyled">
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>Javascript</li>
+								<li>Bootstrap4</li>
+								<li>VueJS</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 mt-3 mt-md-0">
+						<div class="card text-center">
+							<img src="img/icons8-code-100.png" />
+							<h3 class="text-primary">Back End</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic,
+								eveniet!
+							</p>
+							<h5 class="text-primary">Dev Tools</h5>
+							<ul class="list-unstyled">
+								<li>PHP</li>
+								<li>MySQL</li>
+								<li>Code Igniter 3</li>
+								<li>Laravel</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        <section id="skills" class="my-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card text-center">
-                        <img src="img/icons8-web-design-100.png">
-                        <h3 class="text-primary">Front End</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, eveniet!</p>
-                        <h5 class="text-primary">Dev Tools</h5>
-                        <ul class="list-unstyled">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript</li>
-                            <li>Bootstrap4</li>
-                            <li>VueJS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-3 mt-md-0">
-                    <div class="card text-center">
-                        <img src="img/icons8-code-100.png">
-                        <h3 class="text-primary">Back End</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, eveniet!</p>
-                        <h5 class="text-primary">Dev Tools</h5>
-                        <ul class="list-unstyled">
-                            <li>PHP</li>
-                            <li>MySQL</li>
-                            <li>Code Igniter 3</li>
-                            <li>Laravel</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="works">
-            <h1 class="mb-5">Some Of My <br> <span>Works</span></h1>
+			<section id="educations" class="mb-5">
+				<h1 class="mb-5">History of <br /><span>Educations</span></h1>
 
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <img src="img/works/eberhard-grossgasteiger-eqt8gFwo5C8-unsplash.jpg" class="img-thumbnail">
-                </div>
-                <div class="col-md-4 mt-3 mt-md-0">
-                    <img src="img/works/eberhard-grossgasteiger-TMHL7wald8I-unsplash.jpg" class="img-thumbnail">
-                </div>
-                <div class="col-md-4 mt-3 mt-md-0 mb-5 mb-md-0">
-                    <img src="img/works/kevin-mueller--belpTdlJNo-unsplash.jpg" class="img-thumbnail">
-                </div>
-            </div>
-        </section>
+				<div class="row no-gutters mt-5">
+					<div class="col-sm"><!--spacer--></div>
+					<!-- timeline item 1 center dot -->
+					<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+						<div class="row h-50">
+							<div class="col">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+						<h5 class="m-2">
+							<span class="badge badge-pill bg-light border">&nbsp;</span>
+						</h5>
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+					</div>
+					<!-- timeline item 1 event content -->
+					<div class="col-sm py-2">
+						<div class="card my-card">
+							<div class="card-body">
+								<div class="float-right text-muted small">2019 - Now</div>
+								<h4 class="card-title">Politeknik LP3I Jakarta</h4>
+								<p class="card-text">
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id,
+									sit!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/row-->
+				<!-- timeline item 2 -->
+				<div class="row no-gutters">
+					<div class="col-sm py-2">
+						<div class="card my-card">
+							<div class="card-body">
+								<div class="float-right small text-muted">2016-2019</div>
+								<h4 class="card-title">SMK Kemala Bhayangkari Delog</h4>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Eligendi, laboriosam.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+						<h5 class="m-2">
+							<span class="badge badge-pill bg-light border">&nbsp;</span>
+						</h5>
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+					</div>
+					<div class="col-sm"><!--spacer--></div>
+				</div>
+				<!--/row-->
+				<!-- timeline item 3 -->
+				<div class="row no-gutters">
+					<div class="col-sm"><!--spacer--></div>
+					<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+						<h5 class="m-2">
+							<span class="badge badge-pill bg-light border">&nbsp;</span>
+						</h5>
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+					</div>
+					<div class="col-sm py-2">
+						<div class="card my-card">
+							<div class="card-body">
+								<div class="float-right text-muted small">2013-2016</div>
+								<h4 class="card-title">SMP Islam Al-hidayah</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Temporibus, sit!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/row-->
+				<!-- timeline item 4 -->
+				<div class="row no-gutters">
+					<div class="col-sm py-2">
+						<div class="card my-card">
+							<div class="card-body">
+								<div class="float-right text-muted small">2007-2013</div>
+								<h4 class="card-title">SDS Borobudur Cilandak</h4>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+									Laborum, pariatur.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+						<div class="row h-50">
+							<div class="col border-right">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+						<h5 class="m-2">
+							<span class="badge badge-pill bg-light border">&nbsp;</span>
+						</h5>
+						<div class="row h-50">
+							<div class="col">&nbsp;</div>
+							<div class="col">&nbsp;</div>
+						</div>
+					</div>
+					<div class="col-sm"><!--spacer--></div>
+				</div>
+			</section>
 
-        <section id="achievement" class="mt-5">
-            <h1>
-                My <br> <span>Achievement</span>
-            </h1>
+			<section id="works">
+				<h1 class="mb-5">
+					Some Of My <br />
+					<span>Works</span>
+				</h1>
 
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <img src="img/works/eberhard-grossgasteiger-eqt8gFwo5C8-unsplash.jpg" class="img-thumbnail">
-                </div>
-                <div class="col-md-4 mt-3 mt-md-0">
-                    <img src="img/works/eberhard-grossgasteiger-TMHL7wald8I-unsplash.jpg" class="img-thumbnail">
-                </div>
-                <div class="col-md-4 mt-3 mt-md-0 mb-5 mb-md-0">
-                    <img src="img/works/kevin-mueller--belpTdlJNo-unsplash.jpg" class="img-thumbnail">
-                </div>
-            </div>
-        </section>
+				<div class="row mt-5">
+					<div class="col-md-3">
+						<img src="img/works/1.png" class="img-thumbnail" />
+					</div>
+					<div class="col-md-3 mt-3 mt-md-0">
+						<img src="img/works/2.png" class="img-thumbnail" />
+					</div>
+					<div class="col-md-3 mt-3 mt-md-0 mb-5 mb-md-0">
+						<img src="img/works/3.png" class="img-thumbnail" />
+					</div>
+					<div class="col-md-3 mt-3 mt-md-0 mb-5 mb-md-0">
+						<img src="img/works/4.png" class="img-thumbnail" />
+					</div>
+				</div>
+			</section>
 
-        <section id="contact" class="mt-5">
-            <div class="row">
-                <h1>
-                    Get In <br> <span>Touch</span>
+			<section id="achievement" class="mt-5">
+				<h1>
+					My <br />
+					<span>Achievement</span>
+				</h1>
 
-                </h1>
-            </div>
-        </section>
-    </div>
+				<div class="row mt-5">
+					<div class="col-md-6">
+						<img src="img/achievements/1.png" class="img-thumbnail" />
+					</div>
+					<div class="col-md-6 mt-3 mt-md-0">
+						<img src="img/achievements/2.png" class="img-thumbnail" />
+					</div>
+				</div>
+			</section>
 
-    <!-- script -->
-    <script src="lib/jQuery/jquery-3.4.1.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-</body>
+			<section id="contact" class="my-5">
+				<div class="row">
+					<h1>
+						Get In <br />
+						<span>Touch</span>
+					</h1>
+				</div>
+				<div class="row justify-content-center mt-4">
+					<div class="col-lg-4">
+						<div class="card mb-4 text-center">
+							<div class="card-body">
+								<h5 class="card-title">Contact Me</h5>
+								<p class="card-text">
+									Some quick example text to build on the card title and make up
+									the bulk of the card's content.
+								</p>
+							</div>
+						</div>
 
+						<ul class="list-group mb-4">
+							<li class="list-group-item"><h4>Location</h4></li>
+							<li class="list-group-item">My Office</li>
+							<li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
+							<li class="list-group-item">West Java, Indonesia</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-8">
+						<form>
+							<div class="form-group">
+								<label for="nama">Nama</label>
+								<input type="text" class="form-control" id="nama" />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="text" class="form-control" id="email" />
+							</div>
+							<div class="form-group">
+								<label for="phone">Subject</label>
+								<input type="text" class="form-control" id="phone" />
+							</div>
+							<div class="form-group">
+								<label for="message">Message</label>
+								<textarea class="form-control" id="message" rows="3"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="button" class="btn btn-primary">
+									Send Message
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- script -->
+		<script src="lib/jQuery/jquery-3.4.1.js"></script>
+		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	</body>
 </html>
